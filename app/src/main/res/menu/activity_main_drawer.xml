@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/underwear_socks"
+            android:icon="@drawable/ic_undersocks"
+            android:title="@string/underwear_amp_socks" />
+        <item
+            android:id="@+id/tshirts"
+            android:icon="@drawable/ic_tshirt"
+            android:title="@string/t_shirts" />
+        <item
+            android:id="@+id/lsShirts"
+            android:icon="@drawable/ic_lsshirt"
+            android:title="@string/long_sleeve_shirts" />
+        <item
+            android:id="@+id/shorts"
+            android:icon="@drawable/ic_short"
+            android:title="@string/shorts" />
+        <item
+            android:id="@+id/pants"
+            android:icon="@drawable/ic_pants"
+            android:title="@string/pants"/>
+        <item
+            android:id="@+id/sweats"
+            android:icon="@drawable/ic_sweats"
+            android:title="@string/sweatshirts_amp_pants"/>
+    </group>
+
+</menu>
